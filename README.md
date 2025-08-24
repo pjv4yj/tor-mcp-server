@@ -241,10 +241,6 @@ Run with verbose logging:
 PYTHONPATH=. python tor_mcp_server.py --verbose
 ```
 
-## 📝 License
-
-This project is provided for educational and research purposes. Users are responsible for ensuring their usage complies with local laws and regulations.
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please:
