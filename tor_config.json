@@ -1,0 +1,83 @@
+{
+    "tor_settings": {
+      "socks_port": 9150,
+      "host": "127.0.0.1",
+      "timeout_seconds": 60,
+      "connect_timeout_seconds": 30
+    },
+    "content_filtering": {
+      "enabled": true,
+      "blocked_keywords": [
+        "\\bchild abuse\\b",
+        "\\bchild porn\\b", 
+        "\\bchild pornography\\b",
+        "\\bpedophile\\b",
+        "\\bcp\\b",
+        "\\bloli\\b",
+        "\\bshota\\b",
+        "\\bporn\\b",
+        "\\bpornography\\b",
+        "\\bxxx\\b",
+        "\\badult content\\b",
+        "\\bsexual content\\b",
+        "\\bnude\\b",
+        "\\bnaked\\b",
+        "\\bsex videos\\b",
+        "\\bheroin\\b",
+        "\\bcocaine\\b",
+        "\\bmeth\\b",
+        "\\bmethamphetamine\\b",
+        "\\bfentanyl\\b",
+        "\\bmdma\\b",
+        "\\becstasy\\b",
+        "\\blsd\\b",
+        "\\bdrug dealer\\b",
+        "\\bbuy drugs\\b",
+        "\\bsell drugs\\b",
+        "\\bdrug market\\b",
+        "\\bnarcotics\\b",
+        "\\bopioids\\b",
+        "\\bstimulants\\b",
+        "\\bpsychedelics\\b",
+        "\\bcannabis\\b",
+        "\\bmarijuana\\b",
+        "\\bweed\\b",
+        "\\bdrug trafficking\\b",
+        "\\bdrug smuggling\\b",
+        "\\bhuman trafficking\\b",
+        "\\bslave\\b",
+        "\\bhitman\\b",
+        "\\bassassination\\b",
+        "\\bmurder for hire\\b"
+      ],
+      "warning_keywords": [
+        "bomb",
+        "credit card",
+        "fraud", 
+        "hacked",
+        "identity theft",
+        "leaked",
+        "malware",
+        "murder",
+        "ransomware",
+        "stolen",
+        "stolen data",
+        "terrorist",
+        "weapon"
+      ],
+      "blocked_domains": [],
+      "blocked_url_patterns": [
+        ".*porn.*",
+        ".*adult.*",
+        ".*drug.*"
+      ],
+      "allowed_domains": [],
+      "enable_content_redaction": true,
+      "max_content_length": 100000
+    },
+    "server_settings": {
+      "server_name": "tor-access",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; rv:91.0) Gecko/20100101 Firefox/91.0",
+      "max_redirects": 5
+    }
+  }
